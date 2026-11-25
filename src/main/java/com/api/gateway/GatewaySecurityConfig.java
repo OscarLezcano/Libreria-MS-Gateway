@@ -58,7 +58,12 @@ public class GatewaySecurityConfig {
 				"http://localhost:8070",
 				"http://localhost:8085",
 				"http://localhost:8086",
-				"http://localhost"));
+				"http://localhost",
+				"http://172.22.61.230",
+				"http://172.22.61.230:3000",
+				"http://172.22.61.230:8070",
+				"http://172.22.61.230:8085",
+				"http://172.22.61.230:8086"));
 		configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
 		configuration.setAllowedHeaders(List.of("*"));
 		configuration.setAllowCredentials(true);
